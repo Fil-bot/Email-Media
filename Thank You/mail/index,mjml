@@ -1,0 +1,51 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600" />
+    <mj-attributes>
+      <mj-all padding="0px" font-size="18px" font-weight="500" line-height="1.25" font-family="system-ui, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#F1FAF6">
+      <mj-column>
+        <mj-image src="https://raw.githubusercontent.com/Fil-bot/Email-Media/main/Thank%20You/Fonders.jpg" href="https://getneuro.eu" alt="Neuro founders, Kent and Ryan" title="Neuro Europe Homepage" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="30px 20px" background-color="#F1FAF6">
+      <mj-column>
+        <mj-text font-family="Montserrat" color="#00414D">
+          <p>Hey {{ first_name|default:'there' }},</p>
+          <p>Thank you for choosing Neuro to help fuel your body &amp; mind.</p>
+          <p>Our journey began when our founders, Kent and Ryan, started to look for better ways to fuel their days through supplements, energy drinks, and nootropics. When they couldn’t find anything convenient or reliable enough, they decided to create it themselves.</p>
+          <p>Whether you're looking for a boost in energy, enhanced focus, or better sleep, you can trust in the quality and effectiveness of our products to improve your state of mind.</p>
+          <p>If you have any questions, feedback, or just want to share your Neuro experience with us, feel free to reach out. We love hearing from our community!</p>
+          <p>
+            All the best,<br />
+            Kent &amp; Ryan<br />
+            Co-Founders of Neuro
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 20px 40px 20px" background-color="#F1FAF6">
+      <mj-column>
+        <mj-button href="https://getneuro.eu/pages/about-neuro" border-radius="35px" inner-padding="20px 50px" font-family="Montserrat" text-transform="uppercase" background-color="#00414D" color="#FFFFFF">
+          Learn more about our story
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="30px 20px" background-color="#F1FAF6">
+      <mj-column>
+        <mj-image padding-bottom="20px" width="130px" src="https://raw.githubusercontent.com/Fil-bot/Email-Media/main/Logo/neurogum-brand-logo-stacked-color.png" href="https://getneuro.eu" alt="Neuro functional gum and mints" title="Neuro Europe Homepage" />
+        <mj-text align="center" font-size="10px" font-weight="600" font-family="Montserrat" color="#00414D">
+          <p>We respect your privacy and understand that your email inbox should be a place where you receive information that is valuable and relevant to you. If you no longer wish to receive our updates, promotions, and newsletters, you can easily {{ unsubscribe_link }} {{ open_tracking_block }}.</p>
+          <p>© 2025 NeuroE All rights reserved.</p>
+          <p>4675 S Valley View Blvd Las Vegas, NV 89103</p>
+        </mj-text>
+        <mj-text padding-top="20px" align="center" font-size="13px" font-weight="600" font-family="Montserrat" color="#00414D">
+        	<a>Privacy Policy</a> | <a>Purchase Policy</a> | <a>Terms of Service</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
